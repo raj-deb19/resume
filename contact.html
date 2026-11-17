@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Raj Deb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <navigation>
+    <a href="index.html" >Home</a>
+    <a href="projects.html" >Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+  </navigation>
+
+  <header>
+    <h1>Contact Me</h1>
+    <p class="tagline">Let us connect</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Details</h2>
+      <address>
+        Email: <a href="mailto:itz.raj1903@gmail.com">itz.raj1903@gmail.com</a><br>
+        Location: New Delhi, India
+      </address>
+    </section>
+
+    <section>
+      <h2>Send a message</h2>
+      <form action="mailto:itz.raj1903@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message" rows="5" placeholder="Write your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
