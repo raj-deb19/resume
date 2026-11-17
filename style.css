@@ -139,12 +139,6 @@ button {
 }
 button:hover { background-color: #f2a541; color: #1f3a5f; }
 
-/* Small screens */
-@media (max-width: 600px) {
-  header h1 { font-size: 1.8rem; }
-  nav a { padding: 6px 10px; }
-}
-
 /* Link that looks like a button */
 .btn {
   display: inline-block;
